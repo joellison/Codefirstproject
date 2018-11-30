@@ -3,18 +3,18 @@
   <head>
     <title>Dogs vs. Cats</title>
     <link href='css/bootstrap.css' rel='stylesheet'>
-  <meta name="viewport" content="width=device-width,
+    <meta name="viewport" content="width=device-width,
 initial-scale=1.0">
-  <link href='css/main.css' rel='stylesheet'>
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href='css/main.css' rel='stylesheet'>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse" navbar-fixed-top>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -38,37 +38,34 @@ initial-scale=1.0">
 
       <div class="jumbotron">
         <div class="container">
-
-            <img class="img-circle" class="text-center" src='images/vs.jpg'>
-          </div>
-
+          <div id="versus">
+            <img src='images/vs.png' class="img-circle center-block" alt="versus">
           </div>
         </div>
       </div>
 
+
     <div id="buzz" class="text-center">
       <div class="container">
-        <h2><small>The Buzz</small><br />What are people saying?</h2>
+        <h2>Vote now! <br /><small>DOGS VS CATS</small></h2> <br/>
         <div class="row">
-          <div class="col-sm-4">
-            <img class="img-circle" src='images/person.jpg'>
-            <blockquote>
-              <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
-            <small>Mr Smith, Professional sandwich taster</small>
-            </blockquote>
+          <div class="col-sm-6">
+            <ul class="lead">Dogs are better than cats</ul>
+            <ul class="lead">They play games</ul>
+            <ul class="lead">Go for walks with you</ul>
+            <ul class="lead">Sunggles</ul>
+            <ul class="lead">Loyal- They're your best friend!</ul>
+            <br />
+            <button class="btn btn-lg btn-primary">Vote!</button>
           </div>
-          <div class="col-sm-4">
-            <img class="img-circle" src='images/person.jpg'>
-            <blockquote>
-              <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
-              <small>Miss McAdam, CEO Workplace Analytics</small>
-            </blockquote>
-          </div>
-          <div class="col-sm-4">
-            <img class="img-circle" src='images/person.jpg'>
-            <blockquote>
-              <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
-            </blockquote>
+          <div class="col-sm-6">
+            <ul class="lead">Cats are better than dogs</ul>
+            <ul class="lead">Too smart to play fetch</ul>
+            <ul class="lead">No need to go for walks</ul>
+            <ul class="lead">They clean up after themselves</ul>
+            <ul class="lead">They're basically Gods</ul>
+            <br/>
+            <button class="btn btn-lg btn-primary">Vote!</button>
           </div>
         </div>
       </div>
@@ -78,27 +75,14 @@ initial-scale=1.0">
 
 
     <div id="mission">
-      <div class="container">
-        <h2><small>Our mission</small><br />Join us in helping busy professionals eat healthily</h2>
-
-        <p class="lead">We believe that healthy workers are more productive workers.</p>
-        <p class="lead">Providing your team with a healthy lunch each day improves both motivation and morale.</p>
-        <p class="lead">We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
-
-        <div id="social-buttons">
-          <button class="btn btn-lg btn-twitter">Twitter</button>
-          <button class="btn btn-lg btn-facebook">Facebook</button>
-          <button class="btn btn-lg btn-pinterest">Pinterest</button>
-        </div>
+      <div class="container center-block ">
+        <img id="social" src='images/facebook.jpg' class="img-circle" alt="facebook">
+        <img id="social" src='images/instagram.jpeg' class="img-circle" alt="instagram">
+        <img id="social" src='images/twitter.jpeg' class="img-circle" alt="twitter">
+      </div>
       </div>
     </div>
   </div>
-heloo
-
-
-
-
-
 
   </body>
 
