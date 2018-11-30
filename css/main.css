@@ -1,12 +1,15 @@
 .jumbotron {
-  background-image: url('../images/header.jpg');
+  background-image: url('mages/catdonate.jpg');
   background-size: cover;
   background-attachment: fixed;
   min-height: 900px;
 }
 
-
 .img-circle{
 max-width: 200px;
 max-height: 200px;
+}
+.brand {
+  max-height: 30px;
+
 }
