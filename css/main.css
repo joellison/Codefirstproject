@@ -6,6 +6,15 @@
   min-height: 500px;
   padding-top: 400px;
 }
+
+#dog.jumbotron {
+  background-image: url('../images/dog.jpeg');
+}
+
+#cat.jumbotron {
+  background-image: url('../images/cat.jpg');
+}
+
 #buzz {
   padding-bottom:75px;
 }
