@@ -1,38 +1,61 @@
 .jumbotron {
+  background-image: url('../images/header.jpg');
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 100px;
-  background-color: PapayaWhip;
+  background-position: top;
+  align-items: center;
+  min-height: 500px;
+  padding-top: 400px;
+}
+#buzz {
+  padding-bottom:75px;
 }
 
-*{
-  font-family: avenir, sans-serif;
-}
-#content {
-  background-color: LightBlue;
+#versus{
+  border-top: 200px;
 }
 
-#brand {
-max-width: 30px;
-max-height: 30px;
-margin-left: 2px;
-margin-right: 2px;
-margin-top: 0px;
-margin-bottom: 0px;
+#mission {
+  background: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding:50px;
 }
 
-#animalpic {
-  max-width: 1000px;
-  max-height: 1000px;
-  border-radius: 50px;
-  margin-left: 300px;
-  margin-right: 100px;
-  margin-top: 100px;
-  margin-bottom: 50px;
+#social{
+  max-height:75px;
 }
 
+.input-group {
+  margin: auto;
+  width: 300px;
+}
 
-body{
-  background-color: LightBlue;
+.jumbotron {
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  background-position: top;
+  align-items: center;
+  min-height: 500px;
+  padding-top: 400px;
+}
+#buzz {
+  padding-bottom:75px;
+}
 
+#versus{
+  border-top: 200px;
+}
+
+#mission {
+  background: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding:50px;
+}
+
+#social{
+  max-height:75px;
+}
+
+.input-group {
+  margin: auto;
+  width: 300px;
 }
