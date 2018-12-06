@@ -1,10 +1,10 @@
 .jumbotron {
   background-image: url('../images/header.jpg');
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  min-height: 900px;
-  padding-top: 800px;
+  background-position: top;
+  align-items: center;
+  min-height: 500px;
+  padding-top: 400px;
 }
 #buzz {
   padding-bottom:75px;
@@ -22,4 +22,9 @@
 
 #social{
   max-height:75px;
+}
+
+.input-group {
+  margin: auto;
+  width: 300px;
 }
