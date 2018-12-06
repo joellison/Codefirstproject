@@ -1,4 +1,4 @@
-#home {
+.jumbotron {
   background-image: url('../images/header.jpg');
   background-size: cover;
   background-position: top;
@@ -21,7 +21,7 @@
 }
 
 #social{
-  max-height:75px;
+  max-height:50px;
 }
 
 .input-group {
